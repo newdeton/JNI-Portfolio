@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JNI Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <div class="wave-bg">
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+</div>
+
+<div class="parallax-bg"></div>
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+    
+    <div class="logo">JNI Portfolio</div>
+     
+    <div class="menu-toggle" id="menuToggle">
+        ☰
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Hi, It's Joe</h1>
+
+            <h2>
+    <span id="typed-text"></span>
+    <span class="cursor">|</span>
+</h2>
+
+            <p>
+                I build modern, responsive and scalable web applications that
+                help businesses establish a strong online presence and simplify
+                their day-to-day operations.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+    <div class="profile-card">
+
+        <img src="/images/profile.png" alt="Joe">
+
+        <h3>Joe</h3>
+
+        <p>Full-Stack Web Developer</p>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            Available for Freelance
+        </div>
+
+        <div class="stats">
+
+            <div class="stat">
+                <h4 class="counter" data-target="14">0</h4>
+                <span>Projects</span>
+            </div>
+
+            <div class="stat">
+                <h4 class="counter" data-target="30">0</h4>
+                <span>Skills</span>
+            </div>
+
+            <div class="stat">
+                <h4 class="counter" data-target="100">0</h4>
+                <span>Responsive</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I'm Joe, a passionate Full-Stack Web Developer specializing in
+            building fast, responsive, and user-friendly web applications.
+            My expertise includes booking systems, business websites,
+            e-commerce platforms, dashboards, and custom web solutions using
+            HTML, CSS, JavaScript, Node.js, Express, MongoDB, and Firebase.
+        </p>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="projects">
+
+        <h2>Featured Projects</h2>
+
+        <div class="project-grid">
+
+            <!-- JNI Booking -->
+
+            <div class="project-card">
+
+                <img src="/images/jni-booking.png" alt="JNI Booking">
+
+                <h3>JNI Booking</h3>
+
+                <p>
+                    A comprehensive accommodation booking platform for hotels,
+                    hostels, apartments, guest houses, vacation homes and
+                    resorts, featuring booking management and an admin dashboard.
+                </p>
+
+                <div class="project-links">
+                    <a href="javascript:void(0)" class="btn">
+    Live Demo
+</a>
+
+                </div>
+
+            </div>
+
+            <!-- Mugah Logistics -->
+
+            <div class="project-card">
+
+                <img src="/images/mugah-logistics.png" alt="Mugah Logistics">
+
+                <h3>Mugah Logistics</h3>
+
+                <p>
+                    A modern car hire platform with online reservations,
+                    fleet management, booking management, and an intuitive
+                    administrative dashboard.
+                </p>
+
+                <div class="project-links">
+                    <a href="javascript:void(0)" class="btn">
+    Live Demo
+</a>
+
+                </div>
+
+            </div>
+
+            <!-- JNI Tutor -->
+
+            <div class="project-card">
+
+                <img src="/images/jni-tutor.png" alt="JNI Tutor">
+
+                <h3>JNI Tutor</h3>
+
+                <p>
+                    An online learning platform featuring authentication,
+                    quizzes, student management, progress tracking,
+                    and administrative tools.
+                </p>
+
+                <div class="project-links">
+                    <a href="javascript:void(0)" class="btn">
+    Live Demo
+</a>
+                    
+                </div>
+
+            </div>
+
+            <!-- Gold Marketplace -->
+
+            <div class="project-card">
+
+                <img src="/images/gold-marketplace.png" alt="Gold Marketplace">
+
+                <h3>Gold Marketplace</h3>
+
+                <p>
+                    A responsive e-commerce website for showcasing premium
+                    gold products with a clean user interface and an
+                    administrative management panel.
+                </p>
+
+                <div class="project-links">
+                    <a href="javascript:void(0)" class="btn">
+    Live Demo
+</a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+<section id="skills" class="skills">
+
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript (ES6+)</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">Express.js</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">Firebase</div>
+        <div class="skill">Firestore</div>
+        <div class="skill">Firebase Authentication</div>
+        <div class="skill">EJS</div>
+        <div class="skill">REST APIs</div>
+        <div class="skill">JSON</div>
+        <div class="skill">Bootstrap</div>
+        <div class="skill">Responsive Web Design</div>
+        <div class="skill">Git</div>
+        <div class="skill">GitHub</div>
+        <div class="skill">VS Code</div>
+        <div class="skill">Render</div>
+        <div class="skill">Railway</div>
+        <div class="skill">Cloudinary</div>
+        <div class="skill">Multer</div>
+        <div class="skill">Nodemailer</div>
+        <div class="skill">Session Authentication</div>
+        <div class="skill">CRUD Applications</div>
+        <div class="skill">Admin Dashboards</div>
+        <div class="skill">Booking Systems</div>
+        <div class="skill">Fleet Management Systems</div>
+        <div class="skill">Property Management Systems</div>
+        <div class="skill">E-commerce Websites</div>
+        <div class="skill">Portfolio Websites</div>
+        <div class="skill">SEO Basics</div>
+
+    </div>
+
+</section>
+
+    <!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+    <h2>Get In Touch</h2>
+
+    <p>
+        Have a project in mind or need a professional website?
+        I'd be happy to discuss how I can help.
+    </p>
+
+    <form class="contact-form" id="contactForm">
+
+    <input
+        type="text"
+        id="name"
+        placeholder="Your Name"
+        required
+    >
+
+    <input
+        type="email"
+        id="email"
+        placeholder="Your Email"
+        required
+    >
+
+    <input
+        type="text"
+        id="subject"
+        placeholder="Subject"
+        required
+    >
+
+    <textarea
+        id="message"
+        rows="6"
+        placeholder="Your Message"
+        required
+    ></textarea>
+
+    <button type="submit" class="btn">
+        Send Message
+    </button>
+
+</form>
+
+</section>
+
+<a
+    href="https://wa.me/254111565424?text=Hello%20Joe,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project."
+    class="whatsapp-btn"
+    target="_blank"
+    aria-label="Chat on WhatsApp"
+>
+    <img src="/images/whatsapp.png" alt="WhatsApp">
+</a>
+
+<!-- ================= FOOTER ================= -->
+<section>
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+
+            <h2>JNI Portfolio</h2>
+
+            <p>
+                Building modern, responsive and scalable web applications for businesses and individuals.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="/">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-contact">
+
+            <h3>Contact</h3>
+
+            <p>📧 jnimultipurpose001@gmail.com</p>
+            <p>📱 +254 7 02 551 560</p>
+            <p>📍 Nairobi, Kenya</p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 JNI Portfolio. All Rights Reserved.
+    </p>
+
+</footer>
+</section>
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
